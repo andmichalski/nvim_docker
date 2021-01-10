@@ -2,6 +2,7 @@
 Dockerized neovim
 
 sudo docker build --rm --tag neovim .
+
 sudo docker run --rm -it -v $(pwd):/mnt/workspace neovim
 
 
