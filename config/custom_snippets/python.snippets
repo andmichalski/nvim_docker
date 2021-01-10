@@ -1,0 +1,15 @@
+# Print Formatted string
+snippet pr
+print(f"${1:Text}")
+endsnippet
+
+
+# Set breakpoint
+snippet br
+import pdb; pdb.set_trace()
+endsnippet
+
+# ROS log topics
+snippet tp
+rospy.loginfo("TOPICS: %s" % rospy.get_published_topics())
+endsnippet
