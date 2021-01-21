@@ -57,10 +57,10 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " resize current buffer by +/- 5 
-nnoremap <C-W>h :vertical resize -5<cr>
-nnoremap <C-W>j :resize +5<cr>
-nnoremap <C-W>k :resize -5<cr>
-nnoremap <C-W>l :vertical resize +5<cr>
+nnoremap <C-W><Left> :vertical resize -5<cr>
+nnoremap <C-W><Down> :resize +5<cr>
+nnoremap <C-W><Up> :resize -5<cr>
+nnoremap <C-W><Right> :vertical resize +5<cr>
 
 " Update coping with large files
 set synmaxcol=2048
