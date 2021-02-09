@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
 	git \
 	yarn \
 	software-properties-common \
-	python-autopep8
+	python-autopep8 \
+	silversearcher-ag
 
 # FZF
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; ~/.fzf/install
